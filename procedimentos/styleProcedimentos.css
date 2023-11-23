@@ -1,0 +1,58 @@
+/************************** TAG HTML **************************/
+html{
+    background-color: rgb(204, 204, 204);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    font-size: 35px;
+    line-height: 2%;
+    padding-top: 2%;
+}
+
+h3{
+    font-size: 30px;
+    padding-top: 0%;
+}
+
+h4{
+    color: black;
+    line-height: 2%;
+    font-size: 25px; 
+    padding-top: 1%;   
+}
+
+
+
+/************************** CLASSES **************************/
+
+.introducaoPreEmpenho{
+    color: rgb(126, 5, 213);
+    font-size: 20px;
+    line-height: 15%;
+    padding: 0%;
+
+
+}
+
+.telas{
+    height: 500px;
+    width: 1200px;
+
+}
+
+.texto_explicacao_pre_empenho{
+    color: rgb(126, 5, 213);
+    font-size: 20px;
+    
+    
+}
+
+/************************** ID **************************/
+#tituloPreEmpenho{
+    padding: 0%;
+}
+#tituloItens{
+    padding-top: 0%;
+}
+

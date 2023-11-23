@@ -1,0 +1,46 @@
+header {
+    color: blueviolet;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 33.8px;
+}
+
+h1{
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: -5px;
+    padding-bottom: 0%;
+    
+}
+
+h2{
+    text-indent: 2rem;
+    margin-top: -5px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.lei4235, .lei369, .lei757, .lei755 {
+    margin: 2%;
+    margin-bottom: -1%;  
+
+}
+
+.decretoDescrito{
+    text-indent: 3rem;
+}
+
+.leiDescrito{
+    text-indent: 2rem;
+}
+
+#fundo{
+    background-color: rgb(166, 164, 164) ;
+    margin-top: 15px;
+    margin-left: -8px;
+       
+}
