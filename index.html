@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Funproamb - Home</title>    
+    <link rel="icon" href="./img/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/30a1bcdb51.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1 class="titulo">Rotinas Unidades Financeiro Orçamentárias</h1>
+    <h2 class="titulo">Prefeitura Municipal de Porto Alegre</h2>
+
+    <div id="fundo">
+      <nav id="navebar" class="navbar navbar-expand-lg " >
+          <div class="container-fluid" id="barraDeNavegacao">
+            <a class="navbar-brand" href="./index.html" id="HomeBar">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./Legislacao/Legislacao.html" id="legislacaoBar">Legislação de Apoio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Sites Uteis/Sites Uteis.html"id="AcoesRealizadasBar">Sites Úteis</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"id="PrestacaodeContasBar">
+                    Procedimentos
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./procedimentos/Pre_empenho.html">Pré-Empenho</a></li>
+                    <li><a class="dropdown-item" href="./procedimentos/Empenho.html">Empenho</a></li>
+                    <li><a class="dropdown-item" href="./procedimentos/Liquidação.html">Liquidação</a></li>
+                    <li><a class="dropdown-item" href="./procedimentos/Pagamento.html">Pagamento</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+
+      <header>
+        <table>
+          <tr>
+            <td id="TeacherDogText"> Esta página aborda tutoriais destinados aos servidores da Prefeitura de Porto Alegre que trabalham diretamente com orçamento e finanças.</td>
+            <td><img src="./img/Captura de tela 2023-11-19 132748.png" alt="TeacherDog"></td>
+          </tr>
+        </table>      
+
+      </header>
+  
+      <main>
+        <h2>Implantação SIGEF</h2>
+        <h3> A PMPA está implantando o SIGEF, um novo sistema que centralizará as operações financeiras e orçamentárias dos órgãos.
+          <p>Dentre seus benefíciospodemos citar:</p>
+          <ul>
+            <li>Sistema em plataforma WEB, permitindo o acesso em qualquer computador. Necessário conexão VPN ou computador da rede PMPA.</li>
+            <li>Centralização das operações evitando uso de diversos sistemas diferentes como extraorçamentário, GOR, SDO, receita, contabilidade, etc</li>
+            <li>Atualização para normas contábeis e de segurança de informação conforme recomendações de órgãos de controle.</li>
+            <li>Maior autonomia das secretarias para gestão do orçamento trazendo celeridade no fluxo de execução da despesa.</li>
+          </ul>
+        </h3>
+
+        <h2>          Fluxo atual da despesa        </h2>
+        <h3>
+          <p class="fluxogramasTexto">Atualmente a despesa possui um fluxo como demonstrado na imagem abaixo:</p>
+          <img class="fluxogramas" src="./img/fluxo antigo sigef.png" alt="fluxoantigo">
+          <p id="legendafluxograma"><a href="./img/fluxo antigo sigef.png">Clique aqui para ampliar</a></p>
+          <p class="fluxogramasTexto">O fluxo da despesa passará a ter o seguinte funcionamento:</p>
+          <img class="fluxogramas" src="./img/fluxo atual sigef.jpg" alt="fluxonovo">
+          <p id="legendafluxograma"><a href="./img/fluxo atual sigef.jpg">Clique aqui para ampliar</a>
+          <p>Como pode ser verificado nos fluxogramas, na etapa de prévio-empenho não é mais necessária a aprovação da ECM. A Controladoria efetuará um trabalho de verificação posterior e não mais anterior à realização da despesa. </p>
+          <p>Também verifica-se que todo o fluxo será efetuado pelo SIGEF, não sendo mais necessários diversos sistemas como GOR e SDO.</p>
+
+        </h3>
+
+
+      </main>
+
+      <footer>
+        <h1 id="sigaRedes">Redes Sociais</h1>
+        
+          <a class="icon instagram" href="//www.instagram.com/prefpoa/">          
+            <i class="fab fa-brands fa-instagram fa-2xl"></i>     
+            
+        
+          <a class="icon youtube" href= "//www.youtube.com/@Prefeitura_Poa" >
+            <i class="fa-brands fa-youtube fa-2xl"></i>       
+
+            
+          <a class="icon site" href=" //www.prefeitura.poa.br" >
+            <i class="fa-solid fa-globe fa-2xl"></i> 
+           
+          
+        
+
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

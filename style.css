@@ -1,0 +1,104 @@
+/*5F7161 , 6D8B74, EFEAD8, D0C9C0 */
+
+
+/************************** TAGS HTML **************************/
+html{
+    background: white;
+}
+
+header{
+    background-color: white;
+}
+
+footer{
+    padding: 100px 40px 40px 40px;
+    text-align: center;
+}
+
+h1{
+    color: #410189;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+h2{
+    color: #410189;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/***************************************** ID **************************/
+
+#fundo{    
+    background-color: rgb(198, 197, 197);
+}
+
+#barraDeNavegacao {
+    background-color: #410189;
+    padding-left: 60%;    
+}
+
+#navebar{
+    padding-top: 0px;
+}
+
+#HomeBar, #legislacaoBar, #CamaraTecnicaBar, #AcoesRealizadasBar, #PrestacaodeContasBar {
+    color: #EFEAD8;
+    font-size: 15px;
+    font-weight: bold;
+    outline: invert;
+}
+
+#TeacherDogText{
+    text-align:center;
+    color: #410189;
+    font-size: 50px;    
+}
+
+#legendafluxograma{
+    font-size: 15px;
+    color: black;
+}
+
+#sigaRedes{
+    font-size: 25px;
+}
+
+
+
+
+/****************************************** CLASSES **************************/
+
+.fluxogramasTexto{
+    padding-top: 2%;
+}
+
+.fluxogramas{
+    height: 500px;
+    width: 1400px;
+    
+    
+}
+
+.icon{
+    color: #410189;    
+    padding: 15px;
+    text-align: center;    
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    
+}
+
+
+.instagram:hover{
+    color: rgb(239, 13, 119);        
+}
+
+.youtube:hover{
+    color: rgb(245, 10, 10);
+}
+
+.site:hover{
+    color: rgb(22, 126, 230);
+}
+
+/* ************************* Testes *****************************/
